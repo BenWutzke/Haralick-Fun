@@ -1,15 +1,9 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Apr 08 21:34:47 2016
-
-@author: BWutzke143864
-"""
 
 import numpy as np
 np.random.seed(3) # for reproducibility
 
 import matplotlib.pyplot as plt
-
 
 def show_values(pc, fmt="%.2f", **kw):
     '''
@@ -131,4 +125,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    #cProfile.run('main()') # if you want to do some profiling
+    
